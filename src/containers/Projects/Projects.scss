@@ -1,0 +1,46 @@
+@use "../../index.scss" as *;
+
+.project {
+    background-color: $gray-bg-color;
+    padding: 15rem 0;
+
+    @media (max-width: 1020px) {
+        padding: 8rem 0;
+    }
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 900px) {
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        text-align: center;
+    }
+
+    p {
+        color: $header-color;
+        font-size: $text-size;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: $headings-size;
+        color: $black-shade;
+        margin-bottom: 6rem;
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: auto;
+    gap: 5rem;
+}
