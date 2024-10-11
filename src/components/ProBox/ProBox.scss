@@ -1,6 +1,6 @@
 @use "../../index.scss" as *;
 
-.project-box-content{
+.project-box-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +26,13 @@
             object-fit: cover;
             height: 100%;
             border-radius: 0%;
+
+            @media (max-width: 460px) {
+                .img-side__main-img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
         }
 
         @media (max-width: 900px) {
@@ -76,7 +83,7 @@
 
             display: flex;
             align-items: center;
-            justify-content:flex-start;
+            justify-content: flex-start;
             flex-wrap: wrap;
             gap: 2rem;
 
@@ -103,5 +110,5 @@
             }
         }
     }
-    
+
 }
