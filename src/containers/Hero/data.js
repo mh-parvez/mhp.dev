@@ -1,18 +1,18 @@
 export const skillsIcons = [
     {
-        img: "https://skillicons.dev/icons?i=react,next",
+        img: "https://go-skill-icons.vercel.app/api/icons?i=react,next&theme=dark",
+        id: 1,
+    },
+    {
+        img: "https://go-skill-icons.vercel.app/api/icons?i=ts,js&theme=dark",
         id: 2,
     },
     {
-        img: "https://skillicons.dev/icons?i=ts,js",
+        img: "https://go-skill-icons.vercel.app/api/icons?i=sass,tailwind&theme=dark",
         id: 3,
     },
     {
-        img: "https://skillicons.dev/icons?i=sass,tailwind",
-        id: 5,
-    },
-    {
-        img: "https://skillicons.dev/icons?i=redux,mongodb",
+        img: "https://go-skill-icons.vercel.app/api/icons?i=redux,mongodb&theme=dark",
         id: 4,
     },
 ];

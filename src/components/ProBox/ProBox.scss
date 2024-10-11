@@ -3,23 +3,23 @@
 .project-box-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: flex-start;
     gap: 5rem;
 
     // padding: 3rem 0;
 
-    @media (max-width: 1020px) {
+    @media (max-width: 900px) {
         flex-direction: column;
     }
 
     .img-side {
         width: 50%;
         height: 100%;
-        position: relative;
+        // position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
+
 
         img {
             width: 100%;
@@ -50,8 +50,12 @@
     }
 
     .text-side {
-        height: 100%;
         width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
 
         @media (max-width: 900px) {
             width: 100%;

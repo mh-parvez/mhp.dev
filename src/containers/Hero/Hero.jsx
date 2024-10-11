@@ -1,7 +1,6 @@
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import { skillsIcons } from "./data";
 import "./Hero.scss";
-// import { images } from "../../constants";
 
 function Hero() {
 	return (
@@ -16,11 +15,6 @@ function Hero() {
 									<br />
 									MERN Developer
 								</h1>
-								{/* <h1>Frontend Focus Engineer </h1> */}
-								{/* <img
-                                    src={images.wavingEmoji}
-                                    alt="waving_hand"
-                                /> */}
 								<p>
 									Hi, I'm MH Parvez. A passionate Frontend
 									Engineer & MERN Stack Developer, from

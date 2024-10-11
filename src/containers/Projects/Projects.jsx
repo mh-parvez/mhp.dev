@@ -12,7 +12,7 @@ function Projects() {
                         <h3>
                             Each project is a unique piece of development 🧩
                         </h3>
-                        <div className="projects-grid">
+                        <div className="projects-container">
                             {/* ProBox Start*/}
                             <ProBox
                                 name={"Coming Soon"}
