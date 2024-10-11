@@ -8,11 +8,11 @@ export const skillsIcons = [
         id: 3,
     },
     {
-        img: "https://skillicons.dev/icons?i=redux,mongodb",
-        id: 4,
-    },
-    {
         img: "https://skillicons.dev/icons?i=sass,tailwind",
         id: 5,
+    },
+    {
+        img: "https://skillicons.dev/icons?i=redux,mongodb",
+        id: 4,
     },
 ];

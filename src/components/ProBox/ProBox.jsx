@@ -12,15 +12,12 @@ const ProBox = ({ name, description, image, swap }) => {
 					<p>{description}</p>
 					<div className='links_content'>
 						<a href='#' target='_blank'>
-							{" "}
 							Document <IoDocumentTextOutline />{" "}
 						</a>
 						<a href='#' target='_blank'>
-							{" "}
-							Live Demo <MdOutlineInstallDesktop />{" "}
+							Demo <MdOutlineInstallDesktop />{" "}
 						</a>
 						<a href='#' target='_blank'>
-							{" "}
 							Code <AiOutlineGithub />{" "}
 						</a>
 					</div>
