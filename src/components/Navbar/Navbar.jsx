@@ -28,7 +28,7 @@ function Navbar() {
 					))}
 					<li>
 						<a
-							href='https://drive.google.com/file/d/1aaaLOiF9E2PU2tvM3DmsPiQRHyBQ3-cj/view'
+							href='https://drive.google.com/file/d/1B5XkRL1CxkbZNAljpBpYBE2jtP0mBk9I/view'
 							target='_blank'>
 							Resume
 						</a>
@@ -54,6 +54,13 @@ function Navbar() {
 							<a href={item.link}>{item.name}</a>
 						</li>
 					))}
+					<li>
+						<a
+							href='https://drive.google.com/file/d/1B5XkRL1CxkbZNAljpBpYBE2jtP0mBk9I/view'
+							target='_blank'>
+							Resume
+						</a>
+					</li>
 				</ul>
 			</div>
 		</>
