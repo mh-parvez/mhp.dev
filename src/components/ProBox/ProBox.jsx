@@ -62,7 +62,7 @@ const ProBox = () => {
 					<p>
 						<b>Design System & Component Library Prototype - </b>
 						This design system adaptable across various projects (e.g. Angular,
-						Vue, React component libraries). It is easy to integrat
+						Vue, React component libraries). It is easy to integrate
 						into any frontend framework or project.
 						<br /> <br />
 						Follow the principles of Atomic Design to ensure a
