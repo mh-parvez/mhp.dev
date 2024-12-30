@@ -6,7 +6,7 @@ import circleText from '../assets/circleText.svg'
 
 import workingEmoji from '../assets/workingEmoji.png'
 import firstProject from '../assets/firstProject.png'
-import secondProject from '../assets/secondProject.webp'
+import secondProject from '../assets/secondProject.png'
 
 export default {
     heroImage,

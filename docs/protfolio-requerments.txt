@@ -30,5 +30,5 @@
       ✔ Checking the secures things are ok?
     
     3. Deploy: 
-      ✔ Connect on github
+      ✔ Connect with github
       ✔ Deploy

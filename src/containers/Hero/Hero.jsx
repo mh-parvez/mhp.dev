@@ -10,22 +10,18 @@ function Hero() {
 					<div className='content'>
 						<div className='hero-main'>
 							<div className='hero-text'>
-								<h1>
-									Frontend Focus
-									<br />
-									MERN Developer
-								</h1>
+								<h1>JavaScript Developer<br/>Frontend Engineer</h1>
 								<p>
-									Hi, I'm MH Parvez. A passionate Frontend
-									Engineer & MERN Stack Developer, from
-									Sylhet, Bangladesh. 💼
+									Hi, I'm MH Parvez. A passionate Javascript
+									Developer & Frontend Engineer, from Sylhet,
+									Bangladesh. 💼
 								</p>
 								<span>
 									<a
 										aria-label='linkedin'
 										rel='noreferrer'
 										target='_blank'
-										href='https://www.linkedin.com/in/mh-parvez-656629332/'>
+										href='https://www.linkedin.com/in/mhparvezdev/'>
 										<AiOutlineLinkedin
 											width={32}
 											height={32}

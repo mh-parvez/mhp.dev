@@ -26,6 +26,13 @@ function Navbar() {
 							<a href={item.link}>{item.name}</a>
 						</li>
 					))}
+					<li>
+						<a
+							href='https://drive.google.com/file/d/1EbCC5H6QwRluaG-h3bHSaDNjancKXVgf/view'
+							target='_blank'>
+							Resume
+						</a>
+					</li>
 					<li onClick={() => hamburgerMenu()}>
 						<HiMenu className='mobile-menu' />
 					</li>

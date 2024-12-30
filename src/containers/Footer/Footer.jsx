@@ -23,7 +23,7 @@ function Footer() {
 								aria-label='github'
 								target='_blank'
 								rel='noreferrer'
-								href='https://www.linkedin.com/in/mh-parvez-656629332/'>
+								href='https://www.linkedin.com/in/mhparvezdev/'>
 								<AiOutlineLinkedin width={30} height={30} />
 							</a>
 						</div>

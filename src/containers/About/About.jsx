@@ -29,13 +29,12 @@ function AboutMe() {
                         <div className="text-side">
                             <h3>About me</h3>
                             <h4>
-                                Frontend Engineer & <br /> MERN Stack Developer,
+                                Frontend Engineer & <br /> Javascript Developer,
                                 in 2024
                             </h4>
                             <p>
                                 Hey, my name is Parvez, My main stack currently
-                                is React/Next.js in combination with Tailwind
-                                CSS and TypeScript.
+                                is React/Next.js in combination with SASS, Tailwind and TypeScript.
                                 <br />
                                 <br />
                                 I'm highly interested to working with Design
@@ -43,7 +42,7 @@ function AboutMe() {
                                 etc, advanced frontend things.
                                 <br />
                                 <br />
-                                Recently, I'm working MERN stack development.
+                                Recently, I'm working MERN stack project development.
                             </p>
                         </div>
                     </div>
