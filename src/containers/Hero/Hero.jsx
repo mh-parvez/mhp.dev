@@ -14,7 +14,7 @@ function Hero() {
 								<p>
 									Hi, I'm MH Parvez. A passionate Javascript
 									Developer & Frontend Engineer, from Sylhet,
-									Bangladesh. 💼
+									Bangladesh.🥇
 								</p>
 								<span>
 									<a
