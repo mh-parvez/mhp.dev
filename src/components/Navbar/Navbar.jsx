@@ -28,7 +28,7 @@ function Navbar() {
 					))}
 					<li>
 						<a
-							href='https://drive.google.com/file/d/1B5XkRL1CxkbZNAljpBpYBE2jtP0mBk9I/view'
+							href='https://drive.google.com/file/d/1eUTwCVMDKdJtnwkJcEuLlashopHoHD1B/view'
 							target='_blank'>
 							Resume
 						</a>
