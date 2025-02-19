@@ -28,10 +28,7 @@ function AboutMe() {
 						</div>
 						<div className='text-side'>
 							<h3>About me 💬 </h3>
-							<h4>
-								Frontend Engineer & <br /> Javascript Developer,
-								in 2025
-							</h4>
+							<h4>Frontend Software Developer, in 2025</h4>
 							<p>
 								My main stack currently is React/Next.js in
 								combination with SASS & TypeScript.

@@ -27,8 +27,9 @@ function Navbar() {
 						</li>
 					))}
 					<li>
+						
 						<a
-							href='https://drive.google.com/file/d/1eUTwCVMDKdJtnwkJcEuLlashopHoHD1B/view'
+							href='https://drive.google.com/file/d/17uttGl_osX8ecqVcV6GLLue99OxhqL1m/view'
 							target='_blank'>
 							Resume
 						</a>
@@ -56,7 +57,7 @@ function Navbar() {
 					))}
 					<li>
 						<a
-							href='https://drive.google.com/file/d/1B5XkRL1CxkbZNAljpBpYBE2jtP0mBk9I/view'
+							href='https://drive.google.com/file/d/17uttGl_osX8ecqVcV6GLLue99OxhqL1m/view'
 							target='_blank'>
 							Resume
 						</a>

@@ -10,11 +10,9 @@ function Hero() {
 					<div className='content'>
 						<div className='hero-main'>
 							<div className='hero-text'>
-								<h1>JavaScript Developer<br/>Frontend Engineer</h1>
+								<h1>Frontend Software Developer 💻</h1>
 								<p>
-									Hi, I'm MH Parvez. A passionate Javascript
-									Developer & Frontend Engineer, from Sylhet,
-									Bangladesh.🥇
+								  Hey, I'm Parvez. I'm a Frontend Software Developer, from Sylhet, Bangladesh 🗺
 								</p>
 								<span>
 									<a
