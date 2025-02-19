@@ -29,7 +29,11 @@ function Navbar() {
 					<li>
 						
 						<a
+<<<<<<< HEAD
 							href='https://drive.google.com/file/d/17uttGl_osX8ecqVcV6GLLue99OxhqL1m/view'
+=======
+							href='https://drive.google.com/file/d/1-lTd9y8LcmjGlhf9XnlIZYmB3j2nm9T4/view'
+>>>>>>> 2e14cab0af6aff10b21a36895c55ff694e551ebe
 							target='_blank'>
 							Resume
 						</a>
@@ -57,7 +61,11 @@ function Navbar() {
 					))}
 					<li>
 						<a
+<<<<<<< HEAD
 							href='https://drive.google.com/file/d/17uttGl_osX8ecqVcV6GLLue99OxhqL1m/view'
+=======
+							href='https://drive.google.com/file/d/1-lTd9y8LcmjGlhf9XnlIZYmB3j2nm9T4/view'
+>>>>>>> 2e14cab0af6aff10b21a36895c55ff694e551ebe
 							target='_blank'>
 							Resume
 						</a>
