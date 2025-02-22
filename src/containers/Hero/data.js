@@ -1,10 +1,10 @@
 export const skillsIcons = [
     {
-        img: "https://go-skill-icons.vercel.app/api/icons?i=react,next&theme=dark",
+        img: "https://go-skill-icons.vercel.app/api/icons?i=js,ts&theme=dark",
         id: 1,
     },
     {
-        img: "https://go-skill-icons.vercel.app/api/icons?i=ts,js&theme=dark",
+        img: "https://go-skill-icons.vercel.app/api/icons?i=react,next&theme=dark",
         id: 2,
     },
     {

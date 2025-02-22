@@ -12,7 +12,7 @@ function Hero() {
 							<div className='hero-text'>
 								<h1>Frontend Software Developer 💻</h1>
 								<p>
-								  Hey, I'm Parvez. I'm a Frontend Software Developer, from Sylhet, Bangladesh 🗺
+								  I design and develop scalable, applications using frontend tools and technologies, ensuring every interaction is smooth and meaningful. I love solving problems that enhance user experience.
 								</p>
 								<span>
 									<a
