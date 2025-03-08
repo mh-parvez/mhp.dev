@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  background-color: $background-color;
   font-family: $title-font;
   position: relative;
 }
@@ -26,7 +25,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #8e8e8e #ffffff;
+  scrollbar-color:rgba(241, 241, 241, 0.7) black;
 }
 
 /* Chrome, Edge and Safari */
@@ -37,7 +36,7 @@ body {
 
 *::-webkit-scrollbar-track {
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: #d80b0b;
 }
 
 *::-webkit-scrollbar-track:hover {

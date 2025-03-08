@@ -8,27 +8,26 @@ function AboutMe() {
 				<div className='container'>
 					<div className='about-content'>
 						<div className='img-side'>
-							<img
+							{/* <img
 								src={images.workingEmoji}
 								alt='emoji'
 								className='work-emoji'
-							/>
+							/> */}
 							<img
-								src={images.aboutImg}
+								src={images.about}
 								alt='mee'
 								className='img-side__main-img'
 							/>
-							<span>
+							{/* <span>
 								<img
 									src={images.circleText}
 									alt='text'
 									className='circle_image'
 								/>
-							</span>
+							</span> */}
 						</div>
 						<div className='text-side'>
 							<h3>About me 💬 </h3>
-							<h4>Frontend Software Developer, in 2025</h4>
 							<p>
 								My main stack currently is React/Next.js in
 								combination with SASS & TypeScript.

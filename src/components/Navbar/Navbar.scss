@@ -8,12 +8,9 @@ nav {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    background-color: rgb(255, 255, 255, 0.37);
-    border-bottom: 1px dashed rgb(255, 255, 255, 0.88);
     backdrop-filter: blur(5px);
     top: 0;
     left: 0;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
     z-index: 200;
     align-items: center;
 
@@ -27,26 +24,29 @@ nav {
         gap: 2rem;
 
         a {
-            color: $black-shade;
             text-decoration: none;
             transition: all 0.23s;
-            font-weight: 600;
+            font-size: 1.1em;
+            color: #bebebe;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
             @media (max-width: 900px) {
                 display: none;
             }
 
             &:hover {
-                color: $header-color;
+                text-decoration: underline;
+                text-decoration-thickness: 0.2rem;
+                text-underline-offset: 0.3rem;
             }
         }
     }
 }
 
 .logo {
-    cursor: pointer;
-    color: $black-shade;
-    font-weight: bold;
+    color: #bebebe;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .mobile-menu {
@@ -54,9 +54,9 @@ nav {
     height: 30px;
     cursor: pointer;
     display: none;
+    color: #d8d8d8;
 
     &:hover {
-        color: $header-color;
         transition: all 0.3s;
     }
 
@@ -94,11 +94,6 @@ nav {
         top: 2rem;
         right: 4rem;
         cursor: pointer;
-
-        &:hover {
-            color: $header-color;
-            transition: all 0.3s;
-        }
     }
 
     ul {
@@ -114,7 +109,6 @@ nav {
             font-weight: 500;
 
             &:hover {
-                color: $header-color;
                 transition: all 0.3s;
             }
         }

@@ -1,7 +1,9 @@
 @use "../../index.scss" as *;
 
 .about {
-    background-color: $background-color;
+    // background: linear-gradient(rgba(5, 3, 29, 0.966), rgba(24, 5, 5, 0.8));
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.13) 0%, rgba(9, 1, 20, 0.911) 100%);
+
     padding: 15rem 0;
 
     @media (max-width: 1020px) {
@@ -22,6 +24,9 @@
 }
 
 .text-side {
+    display: flex;
+    flex-direction: column;
+    
     padding-right: 1.5rem;
 
     @media (max-width: 1020px) {
@@ -38,10 +43,10 @@
     }
 
     h3 {
-        font-size: $text-size;
-        color: $header-color;
+        font-size: 2.5em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 600;
         margin-bottom: 1rem;
     }
 
@@ -54,11 +59,10 @@
     }
 
     p {
-        font-size: $text-size;
-        font-family: $text-font;
-        color: $text-color;
-        font-weight: 500;
-        line-height: 1.5;
+        font-size: $hero-text-size;
+        color: #1a1919;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 1.6;
     }
 }
 
@@ -108,11 +112,13 @@
     }
 
     &__main-img {
-        width: 41rem;
-        height: 35rem;
-        // border-radius: 1.7rem;
-
+        width: 45rem;
+        height: 32rem;
+        border-radius: 1rem;
         object-fit: cover;
+        outline: 1.5px solid rgba(231, 231, 231, 0.233);
+        outline-offset: .2rem;
+        // filter: saturate(350%);
 
         @media (max-width: 1020px) {
             margin-bottom: 3.5rem;

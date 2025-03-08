@@ -7,9 +7,9 @@ function Projects() {
 			<section id='project' className='project'>
 				<div className='container'>
 					<div className='project-content'>
-						<p>portfolio</p>
+						{/* <p>portfolio</p> */}
 						<h3>
-							Each project is a unique piece of development 🧩
+							Unique Piece of Development 👨🏻‍🔬
 						</h3>
 						<ProBox/>
 					</div>

@@ -1,8 +1,8 @@
 @use "../../index.scss" as *;
 
 .contact {
-    background-color: white;
     padding: 11rem 0;
+    background: rgb(2, 7, 19);
 
     @media (max-width: 1020px) {
         padding: 8rem 0;
@@ -21,13 +21,14 @@
         p {
             color: $header-color;
             text-transform: uppercase;
-            font-weight: 700;
+            // font-weight: 700;
             font-size: $text-size;
             margin-bottom: 1rem;
         }
 
         h3 {
-            color: $black-shade;
+            color: #bdbcbc;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: $headings-size;
         }
     }
@@ -56,7 +57,7 @@
         }
 
         span {
-            background-color: white;
+            background-color: rgb(221, 221, 221);
             width: 5rem;
             display: flex;
             align-items: center;
@@ -64,7 +65,7 @@
             height: 5rem;
             box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
             border-radius: 50%;
-            color: $header-color;
+            color: black;
             font-size: 2.5rem;
         }
     }
@@ -76,15 +77,18 @@
 
         h3 {
             font-size: $text-size;
-            color: $black-shade;
+            color: #bdbcbc;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         a,
         p {
             font-size: $text-size;
-            color: $text-color;
+            color: #bdbcbc;
             text-decoration: none;
+            font-weight: 300;
             cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
             &:hover {
                 color: $header-color;
