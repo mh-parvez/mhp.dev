@@ -1,12 +1,8 @@
 @use "../../index.scss" as *;
 
 .contact {
-    padding: 11rem 0;
-    background: rgb(2, 7, 19);
-
-    @media (max-width: 1020px) {
-        padding: 8rem 0;
-    }
+    padding: 5rem 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.13) 0%, rgba(9, 1, 20, 0.911) 100%);
 
     &__content {
         display: flex;
@@ -23,7 +19,7 @@
             text-transform: uppercase;
             // font-weight: 700;
             font-size: $text-size;
-            margin-bottom: 1rem;
+            // margin-bottom: 1rem;
         }
 
         h3 {
@@ -37,7 +33,7 @@
         display: flex;
         gap: 8rem;
         flex-wrap: wrap;
-        margin-top: 6rem;
+        margin: 6rem;
 
         @media (max-width: 750px) {
             flex-direction: column;
@@ -77,22 +73,24 @@
 
         h3 {
             font-size: $text-size;
-            color: #bdbcbc;
+            color: #272727;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         a,
         p {
             font-size: $text-size;
-            color: #bdbcbc;
+            color: #272727;
             text-decoration: none;
             font-weight: 300;
             cursor: pointer;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+            text-underline-offset: .3em;
 
             &:hover {
-                color: $header-color;
                 transition: all 0.3s;
+                color: black;
             }
         }
     }

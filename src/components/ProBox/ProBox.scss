@@ -22,29 +22,12 @@
 
         img {
             width: 100%;
-            height: 290px;
+            aspect-ratio: 1/2;
             object-fit: contain;
             transition: all 0.3s;
             margin: auto;
-
-            &:hover {
-                transform: translateY(-3px);
-            }
-
-            @media (max-width: 900px) {
-                width: 69%;
-            }
-            
-            @media (max-width: 800px) {
-                width: 77%;
-            }
-            @media (max-width: 700px) {
-                width: 100%;
-                margin-bottom: 3rem;
-            }
-            @media (max-width: 600px) {
-                width: 100%;
-            }
+            outline: 1px solid transparent;
+            margin-top: 1em;
         }
 
         @media (max-width: 900px) {
